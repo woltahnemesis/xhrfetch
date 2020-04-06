@@ -8,7 +8,7 @@ let poemDisplay = document.querySelector('p');
 
 verseChoose.onchange = function(){
     let verse = verseChoose.value;
-    updateDisplay('verse');
+    updateDisplay(verse);
 }
 
 function updateDisplay(verse){
